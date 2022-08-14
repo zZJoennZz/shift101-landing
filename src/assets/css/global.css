@@ -18,6 +18,8 @@
   height: 3rem;
   width: 3rem;
   border-radius: 0;
+  position: fixed;
+  right: 5vw;
 }
 
 .nav input:checked ~ .hamburger div:nth-child(2) {
@@ -31,7 +33,7 @@
 }
 
 .menu-links {
-  @apply text-4xl lg:text-lg lg:font-bold text-white lg:text-cyan-600 mb-5 lg:mb-0 lg:inline-block lg:mr-5;
+  @apply text-4xl lg:text-lg lg:font-bold text-white lg:text-cyan-600 mb-5 lg:mb-0 lg:inline-block lg:mr-5 hover:text-slate-600 transition-colors ease-in-out;
 }
 
 @media (min-width: 1024px) {
